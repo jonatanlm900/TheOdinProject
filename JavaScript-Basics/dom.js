@@ -36,3 +36,9 @@ p_inside.textContent = "ME TOO!";
 
 div.appendChild(p_inside);
 //     Hint for this one: after creating the <div> with createElement, append the <h1> and <p> to it before adding it to the container.
+
+const btn = document.querySelector("#btn");
+btn.addEventListener("click", function (e) {
+    console.log(e);
+  });
+  
